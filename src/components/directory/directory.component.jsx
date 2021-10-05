@@ -1,6 +1,6 @@
 import React from "react";
 import MenuItem from "../menu-item/menu-item.component";
-import "./directory.style.scss";
+import "./directory.style.css";
 
 class Directory extends React.Component {
   constructor() {
@@ -33,7 +33,7 @@ class Directory extends React.Component {
             "https://images.unsplash.com/photo-1581404917879-53e19259fdda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
         },
         {
-          id: 4,
+          id: 5,
           title: "Mens",
           imageUrl:
             "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1148&q=80",
