@@ -1,18 +1,28 @@
 import React from "react";
 import "./App.css";
-import Homepage from "./pages/homepage/homepage.component.jsx";
 import { Switch, Route } from "react-router-dom";
 
-const HatsPage = () => {
-  return <div>Hatspage</div>;
-};
+<<<<<<< HEAD
+import Homepage from "./pages/homepage/homepage.component.jsx";
+import ShopPage from "./pages/shop/shop.component";
+=======
+const HatsPage = () => (
+  <div>
+    <h1>hats page</h1>
+  </div>
+);
+>>>>>>> parent of dce41af (added dynamic routing to the menu-items using withRouter)
 
 function App() {
   return (
     <div>
       <Switch>
         <Route exact path="/" component={Homepage} />
-        <Route exact path="/hats" component={HatsPage} />
+<<<<<<< HEAD
+        <Route exact path="/shop" component={ShopPage} />
+=======
+        <Route path="/hats" component={HatsPage} />
+>>>>>>> parent of dce41af (added dynamic routing to the menu-items using withRouter)
       </Switch>
     </div>
   );
