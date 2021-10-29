@@ -7,16 +7,30 @@
   display: inline-block;
   text-decoration: none;
   color: black;
-  padding: 3px 10px;
+  padding: 3px 15px;
   font-size: 3rem;
   font-family: "Festive", cursive;
   margin: 0;
   font-weight: 600;
 }
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
-  padding: 10px;
+  /* padding: 0 15px; */
   text-decoration: none;
   color: black;
   cursor: pointer;
+  margin: 0 18px;
+  transition: all 0.1s ease;
+}
+.option:hover {
+  /* border-bottom: 1px solid black; */
+  transform: scale(1.1);
 }

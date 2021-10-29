@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(129, 120, 120);
+  /* border: 1px solid rgb(129, 120, 120); */
   margin: 0 7.5px 15px;
   background-size: cover;
   border-radius: 3px;
@@ -23,9 +23,16 @@
   align-items: center;
   justify-content: center;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.8;
+  border-radius: 5px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
+.content:hover {
+  transform: scale(1.07);
+  opacity: 0.9;
+}
+
 .title {
   display: inline-block;
   font-weight: bold;
