@@ -13,8 +13,8 @@
 }
 
 .item-count {
+  padding-top: 7px;
   position: absolute;
-  font-size: 10px;
+  font-size: 1.1rem;
   font-weight: bold;
-  bottom: 12px;
 }
