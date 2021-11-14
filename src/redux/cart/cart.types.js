@@ -1,3 +1,5 @@
+//the type.js is for the name of  the case in reducer to recognize what case
+
 export const cartActionTypes = {
   TOGGLE_CART_HIDDEN: "TOGGLE_CART_HIDDEN",
   ADD_ITEMS: "ADD_ITEMS",
